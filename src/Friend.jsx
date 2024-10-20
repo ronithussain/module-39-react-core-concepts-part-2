@@ -1,9 +1,9 @@
 export default function Friend({friend}){
-   console.log(friend)
+   const {name,email} = friend;
     return(
-        <div>
-            <h3>Name:</h3>
-            <p>Email: </p>
+        <div style={{border:'2px solid purple', background:'gray', color:'white', margin:'5px', borderRadius:'15px'}}>
+            <h3>Name:{name}</h3>
+            <p>Email: {email}</p>
         </div>
     )
 }

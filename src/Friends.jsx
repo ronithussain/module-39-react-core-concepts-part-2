@@ -17,7 +17,7 @@ export default function Friends(){
             <h3>Friends: {friends.length}</h3>
 
             {
-                friends.map(friend => <Friend></Friend>)//error khaisi pore dekhtesi bara
+                friends.map(friend => <Friend friend={friend}></Friend>)//error khaisi pore dekhtesi bara
             }
            
         </div>
