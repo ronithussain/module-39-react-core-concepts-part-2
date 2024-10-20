@@ -4,7 +4,7 @@ import './Friends.css'
 import { useEffect, useState } from "react"
 
 export default function Friends(){
-    const [friends, setFriends] = useState(0);
+    const [friends, setFriends] = useState([]);
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/users')
